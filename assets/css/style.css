@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("../img/universo-background.jpg");
+    background-size: 150px;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+}
+h3 {
+    font-size: 2.1rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+}
+
+header nav {
+    background-color: #3c8dbc;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header nav a:hover {
+    background-color: #fff;
+    color: #3c8dbc;
+}
+
+header#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+header#header #logo {
+    color: #fff;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+#header h1 {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: -10px;
+}
+
+main#container {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+main#container footer {
+    padding-top: 20px;
+}
+
+main#container section.container-padding {
+    padding: 0 30px;
+}

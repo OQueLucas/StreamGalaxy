@@ -1,0 +1,69 @@
+section#preco {
+    margin-top: 20px;
+    padding: 20px;
+    width: max-content;
+    margin: 0 auto;
+    background-color: #3c8dbc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+section#preco h2 {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/streamers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#container header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container h2 {
+    font-size: 1.5rem;
+}
+#container header div {
+    max-width: 600px;
+}
+
+#container header .planetas {
+    height: 150px;
+    z-index: 1;
+}
+#container header img {
+    max-height: 250px;
+    max-width: 100%;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+table td,
+table th {
+    border: 1px solid #3c8dbc4d;
+    padding: 20px;
+}
+
+table span.detalhe {
+    color: #494949;
+}
+
+table td.acesso img {
+    width: 20px;
+}
+table tr td:not(:first-child) {
+    text-align: center;
+    justify-content: center;
+}

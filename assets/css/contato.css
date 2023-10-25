@@ -1,0 +1,87 @@
+main#container {
+    background-color: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#formulario {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+section#formulario h1,
+footer p {
+    text-align: center;
+}
+
+section form {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 20px;
+    justify-content: center;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    flex: 1 0 100%;
+}
+
+fieldset.nome {
+    flex: 1 0 45%;
+}
+
+input,
+textarea {
+    border: 1px solid #3c8dbc;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #3c8dbc;
+}
+
+input.button {
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3c8dbc;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #3c8dbc;
+    border: 1px solid #3c8dbc;
+}
+
+input[type="reset"] {
+    background-color: #bc3c3c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+input[type="reset"]:hover {
+    background-color: #fff;
+    color: #bc3c3c;
+    border: 1px solid #bc3c3c;
+    cursor: pointer;
+}
