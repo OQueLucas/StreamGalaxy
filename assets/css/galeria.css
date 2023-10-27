@@ -17,3 +17,7 @@
 #galeria img {
     width: 350px;
 }
+
+#banner {
+    background-image: url("../img/banner/galeria.webp");
+}

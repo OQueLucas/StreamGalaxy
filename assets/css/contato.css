@@ -86,3 +86,11 @@ input[type="reset"]:hover {
     border: 1px solid #bc3c3c;
     cursor: pointer;
 }
+
+#banner {
+    background-image: url("../img/banner/contato.jpg");
+}
+
+#banner.sucesso {
+    background-image: url("../img/banner/contato-sucesso.jpg");
+}

@@ -25,12 +25,8 @@ table {
 
 table td,
 table th {
-    border: 1px solid #3c8dbc4d;
+    border: 1px solid var(--primary);
     padding: 20px;
-}
-
-table span.detalhe {
-    color: #494949;
 }
 
 table td.acesso img {
@@ -55,4 +51,7 @@ section#proposta {
 section#proposta h2 {
     color: #fff;
     padding-bottom: 15px;
+}
+#banner {
+    background-image: url("../img/banner/inicio.jpg");
 }

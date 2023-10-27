@@ -24,3 +24,7 @@ details summary {
     flex-direction: column;
     gap: 30px;
 }
+
+#banner {
+    background-image: url("../img/banner/sobre.jpg");
+}
