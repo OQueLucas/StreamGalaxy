@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Bitwarden</title>
+    <title>Stream Galaxy</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/inicio.css">
@@ -11,29 +11,34 @@
 
 <body>
     <header id="header">
-        <a href="/" id="logo"><img type="image/svg+xml" alt="logotipo ###" src="assets/img/logo.svg"></img>Stream Galaxy</a>
-        <nav>
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-            </ul>
-        </nav>
+        <div id="banner-parent">
+            <img id="banner" src="assets/img/banner/inicio.jpg" alt="">
+        </div>
+        <div id="header-content">
+            <a href="index.html" id="logo"><img type="image/svg+xml" alt="logotipo Stream Galaxy" src="assets/img/logo.svg"></img>Stream Galaxy</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main id="container">
-        <section class="container-padding">
+    <main class="container">
+        <section class="container-padding content">
             <header>
                 <div>
                     <h1>O seu impulsionador de carreira</h1>
                     <h2>Embarque nesse foguete e venha fazer parte dessa Elite que já impulsionou diversas carreiras.<br>E os levou a um outro universo!</h2>
                 </div>
                 <div class="planetas">
-                    <img src="assets/img/planetas.png" alt="planetas">
+                    <img src="assets/img/universo.png" alt="planetas">
                 </div>
             </header>
-            <section id="preco">
+            <section id="proposta">
                 <h2>Conheça nossa proposta</h2>
                 <table>
                     <thead>
@@ -45,61 +50,61 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- <tr>
-                            <td><sup>$</sup>0<span class="detalhe"><br /><br />por mês<br /><br />Grátis para sempre</span></td>
-                            <td><sup>$</sup>1<span class="detalhe"><br /><br />por mês<br /><br />$10 plano anual</span></td>
-                            <td><sup>$</sup>3.33<span class="detalhe"><br /><br />por mês<br /><br />Até 6 usuários, $40 plano anual</span></td>
-                        </tr> -->
                         <tr>
                             <td>Acesso ao curso</td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Email profissional</td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/cross.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/cross.svg"" alt=""></td>
+                            <td class=" acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Recompensas exclusivas</td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/cross.svg"" alt=""></td>
+                            <td class=" acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Equipe de métricas</td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr></tr>
                         <tr>
                             <td>Grupo exclusivo</td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Acesso VIP em eventos</td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/cross.svg"" alt=""></td>
+                            <td class=" acesso"><img src="assets/img/check.svg" alt=""></td>
+                            <td class="acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Acesso Premium a todos os bastidores dos eventos</td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/sem-acesso.png" alt=""></td>
-                            <td class="acesso"><img src="assets/img/acesso.png" alt=""></td>
+                            <td class="acesso"><img src="assets/img/cross.svg"" alt=""></td>
+                            <td class=" acesso"><img src="assets/img/cross.svg"" alt=""></td>
+                            <td class=" acesso"><img src="assets/img/check.svg" alt=""></td>
                         </tr>
                     </tbody>
                 </table>
             </section>
-            <footer>
-                <p>© 2023 ### - Todos os direitos reservados.</p>
-            </footer>
+            <section>
+                <h2>O que você precisa saber</h2>
+                <p>Nossa iniciativa apoia e incentiva os criadores de conteúdos vinculados. </p>
+                <p>Já temos diversos de criadores afiliados, parceiros e sócios. </p>
+            </section>
     </main>
+    <footer class="container">
+        <p>© 2023 Stream Galaxy - Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

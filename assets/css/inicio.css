@@ -1,53 +1,26 @@
-section#preco {
-    margin-top: 20px;
-    padding: 20px;
-    width: max-content;
-    margin: 0 auto;
-    background-color: #3c8dbc;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px;
-}
-
-section#preco h2 {
-    color: #fff;
-    padding-bottom: 15px;
-}
-
-#header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../img/streamers.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
-
-#container header {
-    display: flex;
-    justify-content: space-between;
-}
-
-#container h2 {
+.container h2 {
     font-size: 1.5rem;
 }
-#container header div {
-    max-width: 600px;
+
+.container header .planetas {
+    height: 150px;
+    z-index: 10;
+}
+.container header img {
+    max-height: 300px;
+    max-width: 100%;
+    z-index: 1;
+    opacity: 0.2;
 }
 
-#container header .planetas {
-    height: 150px;
-    z-index: 1;
-}
-#container header img {
-    max-height: 250px;
-    max-width: 100%;
+.container header img:hover {
+    opacity: 0.3;
 }
 
 table {
     border-radius: 10px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--black);
 }
 
 table td,
@@ -66,4 +39,20 @@ table td.acesso img {
 table tr td:not(:first-child) {
     text-align: center;
     justify-content: center;
+}
+section#proposta {
+    padding: 20px;
+    width: max-content;
+    margin: 0 auto;
+    background-color: var(--primary);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+section#proposta h2 {
+    color: #fff;
+    padding-bottom: 15px;
 }

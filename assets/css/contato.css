@@ -1,4 +1,4 @@
-main#container {
+main.container {
     background-color: unset;
     display: flex;
     flex-direction: column;
@@ -6,9 +6,10 @@ main#container {
 }
 
 section#formulario {
-    background-color: #f7f7f7;
+    background-color: var(--white);
     border-radius: 20px;
     padding: 10px;
+    color: var(--black);
 }
 
 section#formulario h1,
@@ -44,14 +45,14 @@ fieldset.nome {
 
 input,
 textarea {
-    border: 1px solid #3c8dbc;
+    border: 1px solid var(--primary);
     border-radius: 5px;
     padding: 4px;
 }
 
 input:focus,
 textarea:focus {
-    outline: 2px solid #3c8dbc;
+    outline: 2px solid var(--primary);
 }
 
 input.button {
@@ -61,7 +62,7 @@ input.button {
 }
 
 input[type="submit"] {
-    background-color: #3c8dbc;
+    background-color: var(--primary);
     color: #fff;
     border: 1px solid transparent;
     cursor: pointer;
@@ -69,8 +70,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #fff;
-    color: #3c8dbc;
-    border: 1px solid #3c8dbc;
+    color: var(--primary);
+    border: 1px solid var(--primary);
 }
 
 input[type="reset"] {
