@@ -1,9 +1,6 @@
 <div align="center">
-<p>
-[img]<img src="/assets/img/screenshots/pagina-inicial.jpg" width="200" />
-</p>
+<img src="/assets/img/screenshots/pagina-inicial.jpg" width="800" />
 </div>
-![Pagina inicial](/assets/img/screenshots/pagina-inicial.jpg)
 
 Desenvolva um site para uma empresa, com todas informações da empresa. A página deve possuir, no mínimo, os seguintes requisitos (ou reutilize uma já desenvolvida que possua no mínimo 4 páginas html):
 
